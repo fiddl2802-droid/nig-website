@@ -3,104 +3,69 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NiG – KI-Beratung und KI-Einführung</title>
-<meta name="description" content="NiG berät Unternehmen zu den Möglichkeiten von KI und führt sie sicher im eigenen Netzwerk ein.">
-<style>
-:root{--bg:#0f1720;--bg2:#16212d;--fg:#e8eef4;--mut:#9fb0c0;--acc:#3ddc97;--line:#243344}
-*{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
-a{color:var(--acc)}
-.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
-header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(15,23,32,.95);backdrop-filter:blur(6px)}
-header .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
-.logo{font-weight:800;font-size:1.3rem;letter-spacing:.05em}
-.logo span{color:var(--acc)}
-nav a{color:var(--mut);text-decoration:none;margin-left:20px;font-size:.95rem}
-nav a:hover{color:var(--fg)}
-.hero{padding:90px 0 70px}
-.hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.15;margin:0 0 20px}
-.hero p{color:var(--mut);font-size:1.15rem;max-width:640px}
-.btn{display:inline-block;margin-top:24px;padding:12px 24px;background:var(--acc);color:#07140e;font-weight:700;border-radius:8px;text-decoration:none}
-section{padding:60px 0;border-top:1px solid var(--line)}
-h2{font-size:1.8rem;margin:0 0 30px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
-.card{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:24px}
-.card h3{margin:0 0 8px;font-size:1.15rem}
-.card p{margin:0;color:var(--mut)}
-.steps{counter-reset:s;list-style:none;padding:0;margin:0}
-.steps li{counter-increment:s;position:relative;padding:0 0 22px 56px}
-.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:var(--bg2);border:1px solid var(--acc);color:var(--acc);display:flex;align-items:center;justify-content:center;font-weight:700}
-.steps strong{display:block}
-.steps span{color:var(--mut)}
-footer{border-top:1px solid var(--line);padding:30px 0;color:var(--mut);font-size:.9rem}
-</style>
+<title>NiG – KI-Beratung, KI-Einführung und IT für den Mittelstand</title>
+<meta name="description" content="NiG – Next Intelligence Group: KI-Beratung, KI-Einführung, lokale KI im eigenen Netzwerk und IT-Dienstleistung für kleine und mittlere Unternehmen.">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="NiG – KI-Beratung, KI-Einführung und IT für den Mittelstand">
+<meta property="og:description" content="NiG – Next Intelligence Group: KI-Beratung, KI-Einführung, lokale KI im eigenen Netzwerk und IT-Dienstleistung für kleine und mittlere Unternehmen.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://nig-ki.de/assets/og-image.png">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <div class="logo">Ni<span>G</span></div>
-    <nav>
-      <a href="#leistungen">Leistungen</a>
-      <a href="#ablauf">Ablauf</a>
-      <a href="#kontakt">Kontakt</a>
-    </nav>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="NiG – Next Intelligence Group, Startseite">
+      <span class="mark">N<i>i</i>G</span><span class="sub">Next Intelligence Group</span>
+    </a>
+    <nav aria-label="Hauptnavigation"><a href="index.html" aria-current="page">Start</a><a href="leistungen.html">Leistungen</a><a href="ueber-mich.html">Über mich</a><a href="kontakt.html">Kontakt</a></nav>
   </div>
 </header>
+<main id="inhalt">
 
-<main>
-  <div class="wrap hero">
-    <h1>KI im Unternehmen – praktisch, sicher, mit messbarem Nutzen.</h1>
-    <p>NiG berät Unternehmen zu den Möglichkeiten und Vorteilen von KI und führt passende Lösungen ein – auf Wunsch lokal im eigenen Netzwerk, ohne dass Ihre Daten das Haus verlassen.</p>
-    <a class="btn" href="#kontakt">Erstgespräch anfragen</a>
+<section class="hero">
+  <div class="wrap">
+    <img class="hero-logo" src="assets/logo.png" alt="NiG – Next Intelligence Group" width="540" height="180">
+    <h1>KI und IT, die im Unternehmen wirklich ankommen.</h1>
+    <p class="lead">Wir beraten kleine und mittlere Unternehmen zu den Möglichkeiten von künstlicher Intelligenz, führen passende Lösungen ein und betreuen die IT dahinter. Auf Wunsch läuft die KI im eigenen Netzwerk, sodass Ihre Daten im Haus bleiben.</p>
+    <p><a class="btn" href="mailto:info@nig-ki.de?subject=Erstgespr%C3%A4ch%20NiG">Unverbindliches Erstgespräch anfragen</a>
+    <a class="btn ghost" href="leistungen.html">Leistungen ansehen</a></p>
   </div>
+</section>
 
-  <section id="leistungen">
-    <div class="wrap">
-      <h2>Leistungen</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>KI-Beratung</h3>
-          <p>Wo bringt KI in Ihrem Unternehmen echten Mehrwert? Wir analysieren Abläufe und zeigen realistische Einsatzmöglichkeiten.</p>
-        </div>
-        <div class="card">
-          <h3>KI-Einführung</h3>
-          <p>Wir installieren und konfigurieren KI-Lösungen und binden sie in Ihre bestehende IT-Umgebung ein.</p>
-        </div>
-        <div class="card">
-          <h3>Lokale KI</h3>
-          <p>KI im eigenen Netzwerk, die nur auf Ihre internen Daten zugreift und keine Verbindung nach außen hat.</p>
-        </div>
-        <div class="card">
-          <h3>Schulung &amp; Begleitung</h3>
-          <p>Ihr Team lernt, KI sinnvoll im Alltag einzusetzen. Wir begleiten die Einführung bis zum stabilen Betrieb.</p>
-        </div>
-      </div>
+<section>
+  <div class="wrap">
+    <h2>Wofür Unternehmen uns ansprechen</h2>
+    <div class="grid">
+      <article class="card"><h3>Orientierung</h3><p>Wo kann KI in Ihren Abläufen entlasten, und wo lohnt sie sich nicht? Wir bewerten Möglichkeiten nüchtern und nach Aufwand und Nutzen.</p></article>
+      <article class="card"><h3>Einführung</h3><p>Von der Auswahl über die Einrichtung bis zur Schulung: Wir setzen KI-Lösungen so auf, dass Ihr Team sie im Alltag nutzen kann.</p></article>
+      <article class="card"><h3>Datenhoheit</h3><p>Lokale KI im eigenen Netzwerk, ohne Verbindung nach außen. Sie entscheiden, welche Daten die KI sehen darf.</p></article>
+      <article class="card"><h3>Solide IT</h3><p>Microsoft 365, Server, Backup und Betreuung: das technische Fundament, auf dem KI sinnvoll aufsetzt.</p></article>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="ablauf">
-    <div class="wrap">
-      <h2>So arbeiten wir</h2>
-      <ol class="steps">
-        <li><strong>Erstgespräch</strong><span>Wir klären Ziele, Rahmenbedingungen und Datenschutzanforderungen.</span></li>
-        <li><strong>Analyse</strong><span>Wir identifizieren Prozesse mit dem größten Potenzial.</span></li>
-        <li><strong>Umsetzung</strong><span>Wir setzen eine passende Lösung auf und testen sie mit Ihren Daten.</span></li>
-        <li><strong>Betrieb</strong><span>Übergabe, Schulung und Unterstützung im laufenden Betrieb.</span></li>
-      </ol>
-    </div>
-  </section>
+<section class="alt">
+  <div class="wrap narrow">
+    <h2>So arbeiten wir</h2>
+    <ol class="steps">
+      <li><strong>Gespräch.</strong> Wir hören zu, welche Aufgaben bei Ihnen Zeit kosten.</li>
+      <li><strong>Analyse.</strong> Wir prüfen, welche Ansätze technisch und wirtschaftlich passen.</li>
+      <li><strong>Umsetzung.</strong> Wir richten die Lösung ein und dokumentieren sie nachvollziehbar.</li>
+      <li><strong>Betreuung.</strong> Wir halten alles aktuell und stehen für Fragen bereit.</li>
+    </ol>
+    <p><a class="btn" href="kontakt.html">Kontakt aufnehmen</a></p>
+  </div>
+</section>
 
-  <section id="kontakt">
-    <div class="wrap">
-      <h2>Kontakt</h2>
-      <p>Sie möchten wissen, was KI für Ihr Unternehmen leisten kann? Schreiben Sie uns:</p>
-      <p><a href="mailto:info@nig-ki.de">info@nig-ki.de</a></p>
-    </div>
-  </section>
 </main>
-
-<footer>
-  <div class="wrap">© 2026 NiG · <a href="impressum.html">Impressum</a></div>
+<footer class="site">
+  <div class="wrap foot">
+    <p>© 2026 NiG – Next Intelligence Group · Nicholas Gäng</p>
+    <p><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="mailto:info@nig-ki.de">info@nig-ki.de</a></p>
+  </div>
 </footer>
 </body>
 </html>
