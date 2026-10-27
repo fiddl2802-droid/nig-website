@@ -82,3 +82,12 @@ footer a:hover{color:var(--fg)}
   section{padding:40px 0}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Grafiken */
+.gfx{margin:0 0 56px}
+.gfx figcaption{margin-bottom:16px}
+.gfx figcaption h2{margin-bottom:.3em}
+.gfx figcaption p{color:var(--mut);margin:0;max-width:68ch}
+.gfx .frame{display:block;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--bg-deep)}
+.gfx .frame img{display:block;width:100%;height:auto}
+.gfx .links{margin:12px 0 0;font-size:.95rem}

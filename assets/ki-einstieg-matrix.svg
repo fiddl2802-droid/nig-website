@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 890" width="1240" height="890" role="img" aria-labelledby="t d">
+<title id="t">Welche KI-Lösung passt zu Ihrem Unternehmen?</title>
+<desc id="d">Vergleich von Abo-Chatbot, KI per Schnittstelle, eigenem Cloud-Server und lokaler KI nach Einstieg, Datenschutz, Qualität und Kosten.</desc>
+<style>
+:root{--navy:#2b3020;--accent:#9aa86a;--bg:#353a27;--card:#3d4330;--line:#4c5340;--muted:#b4b3a4;--fg:#e4e2d8;--ink:#232819}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.bg{fill:var(--bg)}.navy{fill:var(--navy);stroke:var(--line);stroke-width:1.5}.acc{fill:var(--accent)}
+.card{fill:var(--card);stroke:var(--line);stroke-width:1.5}
+.serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Garamond,Georgia,serif}
+.h1{font-size:32px;font-weight:600;fill:var(--fg);font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+.sub{font-size:16px;fill:var(--accent)}
+.logo{font-size:36px;font-weight:600;fill:var(--fg);font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+.tag{font-size:11px;fill:var(--muted);letter-spacing:2.6px}
+.ch{font-size:17px;font-weight:600;fill:var(--fg);font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+.cs{font-size:12.5px;fill:var(--muted)}
+.badge{font-size:15px;font-weight:700;fill:var(--ink)}
+.rl{font-size:17px;font-weight:600;fill:var(--fg);font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+.rs{font-size:11.5px;fill:var(--muted)}
+.l1{font-size:14px;font-weight:700;fill:var(--fg)}
+.l2{font-size:12.5px;fill:var(--muted)}
+.pt{font-size:12.5px;font-weight:700;fill:var(--ink)}
+.good{fill:#9aa86a}.ok{fill:#c3cc96}.mid{fill:#dcc27a}.warn{fill:#e0976a}.bad{fill:#e07a6a}
+.gl{font-size:12.5px;fill:var(--muted)}
+.ft{font-size:15px;font-weight:600;fill:var(--fg)}
+.ft.acc{fill:var(--accent)}
+</style>
+<rect class="bg" width="1240" height="890"/>
+<rect class="navy" width="1240" height="130"/>
+<rect class="acc" width="1240" height="5" y="125"/>
+<text class="h1" x="40" y="62">Welche KI-Lösung passt zu Ihrem Unternehmen?</text>
+<text class="sub" x="40" y="98">Vier Wege, KI einzuführen – einfach verglichen</text>
+<text class="logo" x="1200" y="68" text-anchor="end">N<tspan class="acc" font-style="italic">i</tspan>G</text>
+<text class="tag" x="1200" y="92" text-anchor="end">NEXT INTELLIGENCE GROUP</text>
+<rect class="navy" x="210" y="150" width="240" height="86" rx="14"/>
+<circle class="acc" cx="240" cy="193" r="15"/>
+<text class="badge" x="240" y="198.5" text-anchor="middle">1</text>
+<text class="ch" x="266" y="188">Abo-Chatbot</text>
+<text class="cs" x="266" y="208">z. B. ChatGPT, Claude, Gemini</text>
+<rect class="navy" x="462" y="150" width="240" height="86" rx="14"/>
+<circle class="acc" cx="492" cy="193" r="15"/>
+<text class="badge" x="492" y="198.5" text-anchor="middle">2</text>
+<text class="ch" x="518" y="188">KI per Schnittstelle</text>
+<text class="cs" x="518" y="208">API, Bezahlung nach Nutzung</text>
+<rect class="navy" x="714" y="150" width="240" height="86" rx="14"/>
+<circle class="acc" cx="744" cy="193" r="15"/>
+<text class="badge" x="744" y="198.5" text-anchor="middle">3</text>
+<text class="ch" x="770" y="188">Eigener Cloud-Server</text>
+<text class="cs" x="770" y="208">Gemietet, selbst betrieben</text>
+<rect class="navy" x="966" y="150" width="240" height="86" rx="14"/>
+<circle class="acc" cx="996" cy="193" r="15"/>
+<text class="badge" x="996" y="198.5" text-anchor="middle">4</text>
+<text class="ch" x="1022" y="188">Lokal im Haus</text>
+<text class="cs" x="1022" y="208">Eigene Hardware im Netzwerk</text>
+<rect class="card" x="30" y="252" width="168" height="96" rx="14"/>
+<rect class="acc" x="30" y="270" width="5" height="60" rx="2.5"/>
+<text class="rl" x="50" y="296">Einstieg</text>
+<text class="rs" x="50" y="316">Wie leicht startet man?</text>
+<rect class="card" x="210" y="252" width="240" height="96" rx="14"/>
+<rect class="good" x="226" y="266" width="118" height="24" rx="12"/>
+<text class="pt" x="285" y="282.5" text-anchor="middle">Sehr einfach</text>
+<text class="l1" x="226" y="314">Anmelden und loslegen</text>
+<text class="l2" x="226" y="333">Kein Technikwissen nötig</text>
+<rect class="card" x="462" y="252" width="240" height="96" rx="14"/>
+<rect class="mid" x="478" y="266" width="118" height="24" rx="12"/>
+<text class="pt" x="537" y="282.5" text-anchor="middle">Mittel</text>
+<text class="l1" x="478" y="314">Anbindung per Programm</text>
+<text class="l2" x="478" y="333">Etwas IT-Wissen nötig</text>
+<rect class="card" x="714" y="252" width="240" height="96" rx="14"/>
+<rect class="warn" x="730" y="266" width="118" height="24" rx="12"/>
+<text class="pt" x="789" y="282.5" text-anchor="middle">Aufwändig</text>
+<text class="l1" x="730" y="314">Server einrichten</text>
+<text class="l2" x="730" y="333">Fachwissen und Betreuung</text>
+<rect class="card" x="966" y="252" width="240" height="96" rx="14"/>
+<rect class="warn" x="982" y="266" width="118" height="24" rx="12"/>
+<text class="pt" x="1041" y="282.5" text-anchor="middle">Aufwändig</text>
+<text class="l1" x="982" y="314">Hardware + Einrichtung</text>
+<text class="l2" x="982" y="333">Am besten mit IT-Partner</text>
+<rect class="card" x="30" y="356" width="168" height="96" rx="14"/>
+<rect class="acc" x="30" y="374" width="5" height="60" rx="2.5"/>
+<text class="rl" x="50" y="400">Datenschutz</text>
+<text class="rs" x="50" y="420">Wo liegen die Daten?</text>
+<rect class="card" x="210" y="356" width="240" height="96" rx="14"/>
+<rect class="warn" x="226" y="370" width="118" height="24" rx="12"/>
+<text class="pt" x="285" y="386.5" text-anchor="middle">Eingeschränkt</text>
+<text class="l1" x="226" y="418">Daten liegen beim Anbieter</text>
+<text class="l2" x="226" y="437">Firmentarife sind sicherer</text>
+<rect class="card" x="462" y="356" width="240" height="96" rx="14"/>
+<rect class="ok" x="478" y="370" width="118" height="24" rx="12"/>
+<text class="pt" x="537" y="386.5" text-anchor="middle">Gut</text>
+<text class="l1" x="478" y="418">Mit Vertrag (AVV) möglich</text>
+<text class="l2" x="478" y="437">EU-Region wählbar</text>
+<rect class="card" x="714" y="356" width="240" height="96" rx="14"/>
+<rect class="good" x="730" y="370" width="118" height="24" rx="12"/>
+<text class="pt" x="789" y="386.5" text-anchor="middle">Sehr gut</text>
+<text class="l1" x="730" y="418">Daten bleiben bei Ihnen</text>
+<text class="l2" x="730" y="437">Standort in der EU</text>
+<rect class="card" x="966" y="356" width="240" height="96" rx="14"/>
+<rect class="good" x="982" y="370" width="118" height="24" rx="12"/>
+<text class="pt" x="1041" y="386.5" text-anchor="middle">Höchste Stufe</text>
+<text class="l1" x="982" y="418">Daten bleiben im Haus</text>
+<text class="l2" x="982" y="437">Auch offline nutzbar</text>
+<rect class="card" x="30" y="460" width="168" height="96" rx="14"/>
+<rect class="acc" x="30" y="478" width="5" height="60" rx="2.5"/>
+<text class="rl" x="50" y="504">Qualität</text>
+<text class="rs" x="50" y="524">Wie gut sind Antworten?</text>
+<rect class="card" x="210" y="460" width="240" height="96" rx="14"/>
+<rect class="good" x="226" y="474" width="118" height="24" rx="12"/>
+<text class="pt" x="285" y="490.5" text-anchor="middle">Sehr gut</text>
+<text class="l1" x="226" y="522">Die besten KI-Modelle</text>
+<text class="l2" x="226" y="541">Immer auf neuestem Stand</text>
+<rect class="card" x="462" y="460" width="240" height="96" rx="14"/>
+<rect class="ok" x="478" y="474" width="118" height="24" rx="12"/>
+<text class="pt" x="537" y="490.5" text-anchor="middle">Gut</text>
+<text class="l1" x="478" y="522">Starke Modelle, schnell</text>
+<text class="l2" x="478" y="541">Ideal für Standardaufgaben</text>
+<rect class="card" x="714" y="460" width="240" height="96" rx="14"/>
+<rect class="ok" x="730" y="474" width="118" height="24" rx="12"/>
+<text class="pt" x="789" y="490.5" text-anchor="middle">Gut</text>
+<text class="l1" x="730" y="522">Große offene Modelle</text>
+<text class="l2" x="730" y="541">Leistung nach Server-Größe</text>
+<rect class="card" x="966" y="460" width="240" height="96" rx="14"/>
+<rect class="mid" x="982" y="474" width="118" height="24" rx="12"/>
+<text class="pt" x="1041" y="490.5" text-anchor="middle">Mittel</text>
+<text class="l1" x="982" y="522">Kleinere offene Modelle</text>
+<text class="l2" x="982" y="541">Abhängig von Ihrer Hardware</text>
+<rect class="card" x="30" y="564" width="168" height="96" rx="14"/>
+<rect class="acc" x="30" y="582" width="5" height="60" rx="2.5"/>
+<text class="rl" x="50" y="608">Kosten</text>
+<text class="rs" x="50" y="628">Was kostet es ungefähr?</text>
+<rect class="card" x="210" y="564" width="240" height="96" rx="14"/>
+<rect class="good" x="226" y="578" width="118" height="24" rx="12"/>
+<text class="pt" x="285" y="594.5" text-anchor="middle">Planbar</text>
+<text class="l1" x="226" y="626">8–200 € pro Monat</text>
+<text class="l2" x="226" y="645">Feste Preise, mit Tageslimits</text>
+<rect class="card" x="462" y="564" width="240" height="96" rx="14"/>
+<rect class="good" x="478" y="578" width="118" height="24" rx="12"/>
+<text class="pt" x="537" y="594.5" text-anchor="middle">Niedrig</text>
+<text class="l1" x="478" y="626">ca. 5–50 € pro Monat</text>
+<text class="l2" x="478" y="645">Sie zahlen nur, was Sie nutzen</text>
+<rect class="card" x="714" y="564" width="240" height="96" rx="14"/>
+<rect class="bad" x="730" y="578" width="118" height="24" rx="12"/>
+<text class="pt" x="789" y="594.5" text-anchor="middle">Hoch</text>
+<text class="l1" x="730" y="626">ca. 300–2.000 € pro Monat</text>
+<text class="l2" x="730" y="645">Ohne Nutzungslimits</text>
+<rect class="card" x="966" y="564" width="240" height="96" rx="14"/>
+<rect class="mid" x="982" y="578" width="118" height="24" rx="12"/>
+<text class="pt" x="1041" y="594.5" text-anchor="middle">Einmalig hoch</text>
+<text class="l1" x="982" y="626">1.500–10.000 € einmalig</text>
+<text class="l2" x="982" y="645">Danach kaum laufende Kosten</text>
+<rect class="card" x="30" y="668" width="168" height="96" rx="14"/>
+<rect class="acc" x="30" y="686" width="5" height="60" rx="2.5"/>
+<text class="rl" x="50" y="712">Passt für</text>
+<text class="rs" x="50" y="732">Typischer Einsatz</text>
+<rect class="card" x="210" y="668" width="240" height="96" rx="14"/>
+<text class="l1" x="226" y="712">Ausprobieren</text>
+<text class="l2" x="226" y="734">Einzelpersonen, kleine Teams</text>
+<rect class="card" x="462" y="668" width="240" height="96" rx="14"/>
+<text class="l1" x="478" y="712">Automatisierung</text>
+<text class="l2" x="478" y="734">Chatbots und eigene Apps</text>
+<rect class="card" x="714" y="668" width="240" height="96" rx="14"/>
+<text class="l1" x="730" y="712">Teams mit Datenschutz</text>
+<text class="l2" x="730" y="734">Viele Nutzer, feste Last</text>
+<rect class="card" x="966" y="668" width="240" height="96" rx="14"/>
+<text class="l1" x="982" y="712">Sensible Daten</text>
+<text class="l2" x="982" y="734">Dokumente, Offline-Betrieb</text>
+<text class="gl" x="40" y="796">AVV = Datenschutzvertrag mit dem Anbieter  ·  API = Schnittstelle, über die Programme die KI nutzen  ·  Offene Modelle = frei verfügbare KI, die man selbst betreiben kann</text>
+<text class="gl" x="40" y="816">Richtwerte, Stand Oktober 2026 – Preise und Modelle ändern sich laufend.</text>
+<rect class="navy" x="0" y="830" width="1240" height="60"/>
+<text class="ft" x="40" y="866">Unsicher, was passt? NiG berät Sie unverbindlich.</text>
+<text class="ft acc" x="1200" y="866" text-anchor="end">nig-ki.de</text>
+</svg>
