@@ -83,7 +83,7 @@ footer a:hover{color:var(--fg)}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
-/* Grafiken */
+/* KI-Kompass */
 .gfx{margin:0 0 56px}
 .gfx figcaption{margin-bottom:16px}
 .gfx figcaption h2{margin-bottom:.3em}
